@@ -24,7 +24,7 @@ Follow the steps below to set up the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/translation-api.git
+git clone https://github.com/NguyenQuocAnDev27/translation-api.git
 cd translation-api
 ```
 
