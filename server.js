@@ -13,10 +13,15 @@ app.use(express.json());
 
 // Translation API endpoint
 app.post('/translate', async (req, res) => {
-  const { text, targetLang } = req.body;
+  const { text, targetLang } = req?.body;
+  console.log(`Request: ${text} - ${targetLang}`);
 
   if (!text || !targetLang) {
     return res.status(400).json({ error: 'Missing required parameters' });
+  }
+
+  if (text == null || targetLang == null) {
+    return res.status(400).json({ error: 'Parameters is null. Can\'t read' });
   }
 
   try {
