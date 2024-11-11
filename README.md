@@ -41,7 +41,7 @@ npm install express google-translate-api-browser cors
 Start the server by running the following command:
 
 ```bash
-node index.js
+node server.js
 ```
 
 The server will be running on `http://localhost:9000`.
