@@ -31,9 +31,7 @@ cd translation-api
 
 Run the following command to install the required Node.js dependencies:
 
-```bash
 npm install express google-translate-api-browser cors
-```
 
 ### 3. Start the Server
 
