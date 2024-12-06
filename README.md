@@ -1,39 +1,41 @@
-### 1. Overview
-```markdown
-# Translation API Server
+## 1. Overview
+
+### Translation API Server
 
 This is a simple Node.js server built using Express that provides an API for translating text using the `google-translate-api-browser` package
 The API supports translation to a specified target language by leveraging Google Translate.
 
-## Features
+### Features
 
 - **Translation API**: Translate any text to a specified target language.
 - **CORS Enabled**: Cross-origin requests are supported for external API calls.
 - **Error Handling**: Provides error messages for missing parameters or failed translations.
 
-## Prerequisites
+### Prerequisites
 
 Before starting, ensure you have the following installed:
 
 - **Node.js** (version 14 or higher)
 - **npm** (version 6 or higher)
 
-## Getting Started
+### Getting Started
 
 Follow the steps below to set up the project locally.
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 
 git clone https://github.com/NguyenQuocAnDev27/translation-api.git
 cd translation-api
 
-### 2. Install Dependencies
+#### 2. Install Dependencies
 
 Run the following command to install the required Node.js dependencies:
 
+```bash
 npm install express google-translate-api-browser cors
+```
 
-### 3. Start the Server
+#### 3. Start the Server
 
 Start the server by running the following command:
 
