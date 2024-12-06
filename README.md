@@ -2,7 +2,7 @@
 
 ### Translation API Server
 
-This is a simple Node.js server built using Express that provides an API for translating text using the `google-translate-api-browser` package
+This is a simple Node.js server built using Express that provides an API for translating text using the `google-translate-api-browser` package.
 The API supports translation to a specified target language by leveraging Google Translate.
 
 ### Features
